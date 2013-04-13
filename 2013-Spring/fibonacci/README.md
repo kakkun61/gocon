@@ -15,7 +15,7 @@ fib.go のフィボナッチ関数をゴルチン化してみた。
 
 Goroutine-izing the fibonacci number function of fib.go
 
-結果
+結果 Result
 ----
 
     $ time go run fibch.go 9
@@ -24,7 +24,7 @@ Goroutine-izing the fibonacci number function of fib.go
     real	0m8.710s
     user	0m0.492s
     sys	0m8.085s
-
+				
     $ time go run fib.go 9
     34
 
