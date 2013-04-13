@@ -16,7 +16,7 @@ fib.go のフィボナッチ関数をゴルチン化してみた。
 Goroutine-izing the fibonacci number function of fib.go
 
 結果
-====
+----
 
     $ time go run fibch.go 9
     34
