@@ -17,13 +17,6 @@ Goroutine-izing the fibonacci number function of fib.go
 
 結果 Result
 ----
-
-    $ time go run fibch.go 9
-    34
-    
-    real	0m8.710s
-    user	0m0.492s
-    sys	0m8.085s
 				
     $ time go run fib.go 9
     34
@@ -32,4 +25,10 @@ Goroutine-izing the fibonacci number function of fib.go
     user	0m0.216s
     sys	0m0.032s
 
+    $ time go run fibch.go 9
+    34
+    
+    real	0m8.710s
+    user	0m0.492s
+    sys	0m8.085s
 
